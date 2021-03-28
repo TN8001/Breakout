@@ -32,7 +32,7 @@ abstract class Base {
 
     return false;
   }
-    
+
    String getNote() {
     return "C6";
   }
