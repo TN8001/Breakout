@@ -25,7 +25,7 @@ class Paddle extends Base {
     if (rect.x < 0) rect.x = 0;
     if (rect.x + rect.width > width) rect.x = width - rect.width;
   }
-  
+
   @Override String getNote() {
     return "E6";
   }
