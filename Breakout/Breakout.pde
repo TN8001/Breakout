@@ -11,7 +11,7 @@ AudioOutput out;
 Ball ball;
 Paddle paddle;
 Base wall;
-Block[] blocks = new Block[25];
+Block[] blocks = new Block[row * col];
 
 void setup() {
   size(600, 500);
